@@ -5,6 +5,10 @@ def reverse_cipher_slice(message):
     return message[::-1]
 
 def reverse_cipher_iterative(message):
+    """
+    reverses the message by extracting each letter, and placing it into a new string
+    """
+
     ciphered = ''
     i = len(message) -1
     while i >= 0:
